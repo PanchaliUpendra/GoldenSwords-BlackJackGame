@@ -1,7 +1,7 @@
 
 let player= {
-	name:"Per",
-	chips:200
+	name:"GoldenSword's",
+	chips:"Let's kick it up notch"
 }
 
 let cards =[]
@@ -16,7 +16,7 @@ let cardsEl=document.getElementById("cards-el")
 
 let playerEl =document.getElementById("player-el")
 
-playerEl.textContent = player.name+": $"+ player.chips
+playerEl.textContent = player.name+": "+ player.chips
 
 function getRandomCard()
 {
